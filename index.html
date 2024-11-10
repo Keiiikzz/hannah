@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background-image: url(photo/aperture-vintage-SshYpuf607g-unsplash.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            
+        }
+        
+        body::before {
+            position: absolute;
+            width: min(1400px, 90vw);
+            top: 10%;
+            left: 50%;
+            height: 90%;
+            transform: translateX(-50%);
+            content: '';
+            background-image: url(photo/bg.png);
+            background-size: 100%;
+            background-repeat: no-repeat;
+            background-position: top center;
+            pointer-events: none;
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="banner">
+        <div class="slider" style="--quantity: 10">
+            <div class="item" style="--position: 1"><img src="photo/baby1.jpg" alt=""></div>
+            <div class="item" style="--position: 2"><img src="photo/baby2.jpg" alt=""></div>
+            <div class="item" style="--position: 3"><img src="photo/baby3.jpg" alt=""></div>
+            <div class="item" style="--position: 4"><img src="photo/baby4.jpg" alt=""></div>
+            <div class="item" style="--position: 5"><img src="photo/baby5.jpg" alt=""></div>
+            <div class="item" style="--position: 6"><img src="photo/baby6.jpg" alt=""></div>
+            <div class="item" style="--position: 7"><img src="photo/baby7.jpg" alt=""></div>
+            <div class="item" style="--position: 8"><img src="photo/baby8.jpg" alt=""></div>
+            <div class="item" style="--position: 9"><img src="photo/baby9.jpg" alt=""></div>
+            <div class="item" style="--position: 10"><img src="photo/baby10.jpg" alt=""></div>
+        </div>
+        <div class="content">
+            <h1 data-content="HANNAH D FERRER">
+                HANNAH D FERRER
+            </h1>
+            <div class="author">
+                <h2 style="color: white;">CREATED BY:<h3 style="color: white;">YRON JHON</h2>
+                <p><b></b></p>
+                <p style="color: white;">
+                    This is for you my baby i love you so much!
+                </p>
+            </div>
+            <div class="model"></div>
+        </div>
+    </div>
+    
+</body>
+</html>
